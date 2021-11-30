@@ -6,7 +6,7 @@ int fibonacci(int n);
 
 
 int main(){
-	int *pi = new int[10];
+	int *pi = new int[20];
 	int i;
 	for(i=1;i<=20;i++)
 	{
@@ -22,5 +22,5 @@ int fibonacci(int n){
 	if(n==1 || n==2)
 		return 1;
 	else
-		return fibonacci(n-1)+fibonacci(n-2); 
+		return fuion(n-1)+fibonacci(n-2); 
 }
